@@ -2,32 +2,302 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.row{
+  display:flex;
 
-.App-link {
-  color: #61dafb;
+  
 }
+.static-signup{
+background: #EDEDFE;
+width: 500px;
+height: 506px;
+position: relative;
+bottom: -60px;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+.moving-signup{
+  background: #FFFFFF;
+  width: 500px;
+height: 506px;
+position: relative;
+bottom: -60px;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+.between{
+  position: relative;
+  bottom:-10px;
+}
+.fullname{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+bottom:40px;
+padding-left:10px;
+}
+.email{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+bottom:-40px;
+padding-left:10px;
+
+}
+.password{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+bottom:-120px;
+padding-left:10px;
+}
+.fullname-label{
+position: absolute;
+left:50px;
+bottom:70px;
+}
+.email-label{
+  position: absolute;
+  left:50px;
+  bottom:-10px;
+ }
+ .password-label{
+  position: absolute;
+  left:50px;
+  bottom:-90px;
+ }
+ .agreement{
+  position: absolute;
+  left:50px;
+  bottom:-160px;
+ }
+ .signup-button{
+  background: #2196F3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  width:467px;
+  height:43px;
+  position: absolute;
+  bottom:-210px;
+  left:50px;
+ }
+ .option{
+  position: absolute;
+  bottom:-260px;
+  left:280px;
+  font-weight: bolder;
+ }
+ .switch{
+  position: absolute;
+  bottom:-350px;
+  left:180px;
+ }
+ .signin-email-label{
+  position: absolute;
+  left:50px;
+  bottom:-30px;
+ }
+ .signin-email{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+bottom:-65px;
+padding-left:10px;
+
+ }
+ .signin-password-label{
+  position: absolute;
+  left:50px;
+  bottom:-100px;
+ }
+ .signin-password{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+bottom:-135px;
+padding-left:10px;
+ }
+ .signin-agreement{
+    position: absolute;
+    left:50px;
+    bottom:-160px;
+ }
+ .signin-button{
+  background: #2196F3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  width:467px;
+  height:43px;
+  position: absolute;
+  bottom:-225px;
+  left:50px;
+ }
+ .option-signup{
+  position: absolute;
+  bottom:-270px;
+  left:280px;
+  font-weight: bolder;
+ }
+ .switch-signup{
+  position: relative;
+  bottom:-350px;
+  left:160px;
+ }
+ .forgot{
+  position: relative;
+  left:245px;
+  bottom:-200px;
+ }
+
+ 
+
+
+ @media(max-width:1024px){
+   .fullname,.email,.password,
+    .signup-button, .signin-email,
+    .signin-password, .signin-button{
+    width:380px;
+    height:40px;
+   }
+    .option, .option-signup{
+    position: absolute;
+    left:230px;
+    font-weight: bolder;
+   }
+   .forgot{
+    position: relative;
+    left:190px;
+   }
+   .switch{
+     position:relative;
+     bottom:-330px;
+     left:50px;
+   }
+   .switch-signup{
+    position:relative;
+    bottom:-350px;
+    left:50px;
+   }
+
+ }
+ @media(max-width:768px){
+  .fullname,.email,.password,
+  .signup-button, .signin-email,
+  .signin-password, .signin-button{
+  width:280px;
+  height:40px;
+ }
+  .option, .option-signup{
+  position: absolute;
+  left:180px;
+  font-weight: bolder;
+ }
+ .forgot{
+  position: relative;
+  left:-3px;
+  bottom:-220px;
+ }
+ .switch{
+   position:relative;
+   bottom:-330px;
+   left:50px;
+ }
+ .switch-signup{
+  position:relative;
+  bottom:-350px;
+  left:50px;
+ }
+ .agreement{
+   position: absolute;
+   bottom:-170px;
+ }
+
+ }
+ @media(max-width:425px){
+  .static-signup{
+    width:395px;
   }
-  to {
-    transform: rotate(360deg);
+  .Group{
+    width:380px;
   }
-}
+  .forgot{
+    position: relative;
+    left:-50px;
+   }
+ .row{
+   margin:0 auto;
+ }
+ }
+ @media(max-width:375px){
+  .static-signup{
+    width:345px;
+  }
+  .Group{
+    width:320px;
+  }
+  .forgot{
+    position: relative;
+    left:-50px;
+   }
+ .row{
+   margin:0 auto;
+ }
+ .fullname, .email, .password,
+ .signin-email, .signin-password,
+ .signin-button, .signup-button{
+   width:250px;
+ }
+ }
+ @media(max-width:320px){
+  .static-signup{
+    width:295px;
+  }
+  .Group{
+    width:270px;
+  }
+  .forgot{
+    position: absolute;
+    left:50px;
+    top:210px;
+   }
+ .row{
+   margin:0 auto;
+ }
+ .fullname, .email, .password,
+ .signin-email, .signin-password,
+ .signin-button, .signup-button{
+   width:200px;
+ }
+ .option-signup, .switch-signup
+ {
+   position: absolute;
+   left:130px;
+ }
+ .option, .switch{
+  position: absolute;
+  left:130px;
+ }
+ }
+
