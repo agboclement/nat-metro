@@ -2,114 +2,60 @@
   text-align: center;
 }
 
+/* Donifez css starts here */
 
 .row{
-  display:flex;
-
-  
+  display:flex;  
+}
+.header-signin{
+  position: relative;
+  left:-200px;
+  top:40px;
+  font-weight: bolder;
+  font-size:1.5rem;
 }
 .static-signup{
 background: #EDEDFE;
 width: 500px;
-height: 506px;
+height: 536px;
+position: relative;
+bottom: -50px;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+.static-signin{
+  background: #EDEDFE;
+  width: 500px;
+  height: 536px;
+  position: relative;
+  bottom: -60px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  }
+.moving-signin{
+  background: #FFFFFF;
+  width: 500px;
+height: 536px;
 position: relative;
 bottom: -60px;
 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 border-radius: 4px;
-
 }
 .moving-signup{
   background: #FFFFFF;
   width: 500px;
-height: 506px;
+height: 536px;
 position: relative;
-bottom: -60px;
+bottom: -50px;
 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 border-radius: 4px;
+padding-bottom:60px;
 }
-.between{
-  position: relative;
-  bottom:-10px;
-}
-.fullname{
-  width:467px;
-  height:40px;
-  border: 1px solid #C9D6DF;
-box-sizing: border-box;
-border-radius: 4px;
-position:absolute;
-left:50px;
-bottom:40px;
-padding-left:10px;
-}
-.email{
-  width:467px;
-  height:40px;
-  border: 1px solid #C9D6DF;
-box-sizing: border-box;
-border-radius: 4px;
-position:absolute;
-left:50px;
-bottom:-40px;
-padding-left:10px;
 
-}
-.password{
-  width:467px;
-  height:40px;
-  border: 1px solid #C9D6DF;
-box-sizing: border-box;
-border-radius: 4px;
-position:absolute;
-left:50px;
-bottom:-120px;
-padding-left:10px;
-}
-.fullname-label{
-position: absolute;
-left:50px;
-bottom:70px;
-}
-.email-label{
-  position: absolute;
-  left:50px;
-  bottom:-10px;
- }
- .password-label{
-  position: absolute;
-  left:50px;
-  bottom:-90px;
- }
- .agreement{
-  position: absolute;
-  left:50px;
-  bottom:-160px;
- }
- .signup-button{
-  background: #2196F3;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  width:467px;
-  height:43px;
-  position: absolute;
-  bottom:-210px;
-  left:50px;
- }
- .option{
-  position: absolute;
-  bottom:-260px;
-  left:280px;
-  font-weight: bolder;
- }
- .switch{
-  position: absolute;
-  bottom:-350px;
-  left:180px;
- }
  .signin-email-label{
   position: absolute;
   left:50px;
-  bottom:-30px;
+  top:125px;
  }
  .signin-email{
   width:467px;
@@ -119,14 +65,14 @@ box-sizing: border-box;
 border-radius: 4px;
 position:absolute;
 left:50px;
-bottom:-65px;
+top:155px;
 padding-left:10px;
 
  }
  .signin-password-label{
   position: absolute;
   left:50px;
-  bottom:-100px;
+  top:210px;
  }
  .signin-password{
   width:467px;
@@ -136,13 +82,13 @@ box-sizing: border-box;
 border-radius: 4px;
 position:absolute;
 left:50px;
-bottom:-135px;
+top:235px;
 padding-left:10px;
  }
  .signin-agreement{
     position: absolute;
     left:50px;
-    bottom:-160px;
+    top:280px;
  }
  .signin-button{
   background: #2196F3;
@@ -151,153 +97,112 @@ padding-left:10px;
   width:467px;
   height:43px;
   position: absolute;
-  bottom:-225px;
+  top:320px;
   left:50px;
+ }
+ .option-signin{
+  position: absolute;
+  top:370px;
+  left:280px;
+  font-weight: bolder;
+ }
+ .switch-signin{
+  position: absolute;
+  top:470px;
+  left:160px;
+ }
+ .forgot{
+  position: absolute;
+  top:280px;
+  left:400px;
+ }
+ .signup-fullname-label{
+  position: absolute;
+  left:50px;
+  top:85px;
+ }
+.signup-fullname{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+top:115px;
+padding-left:10px;
+ }
+ .signup-email-label{
+  position: absolute;
+  left:50px;
+  top:165px;
+ }
+ .signup-email{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+top:195px;
+padding-left:10px;
+ }
+ .signup-password-label{
+  position: absolute;
+  left:50px;
+  top:245px;
+ }
+ .signup-password{
+  width:467px;
+  height:40px;
+  border: 1px solid #C9D6DF;
+box-sizing: border-box;
+border-radius: 4px;
+position:absolute;
+left:50px;
+top:275px;
+padding-left:10px;
+ }
+ .signup-button{
+  background: #2196F3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  width:467px;
+  height:43px;
+  position: absolute;
+  top:350px;
+  left:50px;
+ }
+ .signup-agreement{
+   position: absolute;
+   top:315px;
+   left:50px;
  }
  .option-signup{
   position: absolute;
-  bottom:-270px;
+  top:400px;
   left:280px;
   font-weight: bolder;
  }
  .switch-signup{
-  position: relative;
-  bottom:-350px;
+  position: absolute;
+  top:490px;
   left:160px;
  }
- .forgot{
+ .header-signup{
   position: relative;
-  left:245px;
-  bottom:-200px;
- }
+  left:-200px;
+  top:20px;
+  font-weight: bolder;
+  font-size:1.5rem;
+}
+/*  
+ Donifez css ends here */
+
+/*  
+Donifez media query begins here */
 
  
-
-
- @media(max-width:1024px){
-   .fullname,.email,.password,
-    .signup-button, .signin-email,
-    .signin-password, .signin-button{
-    width:380px;
-    height:40px;
-   }
-    .option, .option-signup{
-    position: absolute;
-    left:230px;
-    font-weight: bolder;
-   }
-   .forgot{
-    position: relative;
-    left:190px;
-   }
-   .switch{
-     position:relative;
-     bottom:-330px;
-     left:50px;
-   }
-   .switch-signup{
-    position:relative;
-    bottom:-350px;
-    left:50px;
-   }
-
- }
- @media(max-width:768px){
-  .fullname,.email,.password,
-  .signup-button, .signin-email,
-  .signin-password, .signin-button{
-  width:280px;
-  height:40px;
- }
-  .option, .option-signup{
-  position: absolute;
-  left:180px;
-  font-weight: bolder;
- }
- .forgot{
-  position: relative;
-  left:-3px;
-  bottom:-220px;
- }
- .switch{
-   position:relative;
-   bottom:-330px;
-   left:50px;
- }
- .switch-signup{
-  position:relative;
-  bottom:-350px;
-  left:50px;
- }
- .agreement{
-   position: absolute;
-   bottom:-170px;
- }
-
- }
- @media(max-width:425px){
-  .static-signup{
-    width:395px;
-  }
-  .Group{
-    width:380px;
-  }
-  .forgot{
-    position: relative;
-    left:-50px;
-   }
- .row{
-   margin:0 auto;
- }
- }
- @media(max-width:375px){
-  .static-signup{
-    width:345px;
-  }
-  .Group{
-    width:320px;
-  }
-  .forgot{
-    position: relative;
-    left:-50px;
-   }
- .row{
-   margin:0 auto;
- }
- .fullname, .email, .password,
- .signin-email, .signin-password,
- .signin-button, .signup-button{
-   width:250px;
- }
- }
- @media(max-width:320px){
-  .static-signup{
-    width:295px;
-  }
-  .Group{
-    width:270px;
-  }
-  .forgot{
-    position: absolute;
-    left:50px;
-    top:210px;
-   }
- .row{
-   margin:0 auto;
- }
- .fullname, .email, .password,
- .signin-email, .signin-password,
- .signin-button, .signup-button{
-   width:200px;
- }
- .option-signup, .switch-signup
- {
-   position: absolute;
-   left:130px;
- }
- .option, .switch{
-  position: absolute;
-  left:130px;
- }
- }
+ /* Donifez media query ends here */
 
