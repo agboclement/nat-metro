@@ -1,3 +1,166 @@
+/*
+light blue color: #2196F3
+light green color: #28B446
+White color: #ffffff
+
+*/
+
+/* NAVBAR */
+
+.logo {
+  font-weight: 700 !important;
+  font-size: 30px;
+}
+
+.logo::first-letter{
+  font-size: 40px;
+  color: #2196F3;
+  font-weight: 700;
+}
+
+.navbar-right{
+  margin-right: 100px;
+}
+
+.nav-btn {
+  color: #ffffff;
+  background-color: #2196F3;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 0rem;
+  padding-top: 0rem;
+  border: 1px solid #2196F3;
+}
+
+.nav-btn:hover {
+  background-color: #28B446;
+  border: 1px solid #28B446;
+}
+
+.navbar-body {
+  bottom: 70px;
+  
+}
+
+.nav-list {
+  margin-right: 25px;
+}
+
+.hero {
+  background-image: url(../src/assets/img/background.svg);
+  border-radius: 0;
+  height: 100vh;
+}
+
+.hero-title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-heading {
+  font-size: 48px;
+}
+
+.choose-trip {
+  border: 1px solid #ffffff;
+  height: 10rem;
+  width: 70rem;
+  margin-left: 3rem;
+  margin-top: 6rem;
+  background-color: #ffffff;
+}
+
+.dropdown-btn {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+  font-weight: 700;
+  margin-left: 20px;
+  
+}
+
+.dropdown-btn:hover {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+}
+.DropdownMenu{
+  outline:none;
+  border:none;
+}
+.select-box{
+  box-shadow: none;
+}
+.secondary.dropdown-toggle:focus{
+  box-shadow: none;
+  background-color: #ffffff;
+}
+
+.drop {
+  background-color: #ffffff;
+}
+
+/* @media (min-width: 576px) {
+     .hero{
+      padding-top: 4rem;
+      padding-right: 10rem;
+      padding-bottom: 4rem;
+      padding-left: 10rem;
+      width: 75rem;
+      height: 180vh;
+     }
+
+     .choose-trip {
+      border: 1px solid #ffffff;
+      height: 06rem;
+      width: 60rem;
+      margin-left: -1rem;
+      margin-top: 6rem;
+      
+    }
+
+
+} */
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+
+
+
 .App {
   text-align: center;
 }
