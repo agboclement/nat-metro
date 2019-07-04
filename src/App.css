@@ -202,7 +202,87 @@ padding-left:10px;
 
 /*  
 Donifez media query begins here */
+@media(max-width:1024px){
+  .signin-email, .signin-password{
+    width:400px;
+  }
+  .signin-button{
+    width:400px;
+    top:330px;
+  }
+  .forgot{
+    top:280px;
+    left:330px;
+   }
+   .option-signin{
+    top:380px;
+    left:240px;
+   }
+   .header-signin{
+    left:-150px;  
+  }
+  .switch-signin{
+    top:510px;
+  }
+}
 
+@media(max-width:768px){
+
+  .signin-email, .signin-password{
+    width:310px;
+    left:30px;
+  }
+  .signin-button{
+    width:310px;
+    top:330px;
+    left:30px;
+
+  }
+  .forgot{
+    top:280px;
+    left:250px;
+   }
+   .option-signin{
+    top:380px;
+    left:170px;
+   }
+   .header-signin{
+    
+    left:-110px;
+   } 
+   .signin-email-label, .signin-password-label{
+    left:30px;
+   }
+   .switch-signin{
+     left:70px;
+   }
+}
+@media(max-width:425px){
+  .row{
+    display:grid;
+  }
+  .static-signin, .moving-signin{
+    width:530px;
+  }
+  .header-signin{
+    left:-100px;
+  }
+  .signin-email, .signin-password, .signin-email-label,
+  .signin-password-label, .signin-button, .signin-agreement{
+    left:110px;
+  }
+  .option-signin{
+    top:380px;
+    left:250px;
+   }
+   .forgot{
+    left:350px;
+    width:50px;
+   }
+   .switch-signin{
+     left:160px;
+   }
+}
  
  /* Donifez media query ends here */
 
